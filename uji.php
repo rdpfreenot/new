@@ -9,7 +9,7 @@ $o = "\033[30;1m";
 
 echo $p . "
 ";
-echo $p . "	          " . $h . "Bot Dor XL Lite 9K" . $p . "
+echo $p . "	          " . $h . "Bot Tembak XL Lite 9K" . $p . "
 ";
 echo $p . "	      " . $p . "Author: " . $k . "Mr. Black Hat" . $p . "
 ";
@@ -20,7 +20,7 @@ echo $p . "
 
 
 sleep(1);
-$no = readline($p . "	 [] Input Number   " . $m . ": " . $k);
+$no = readline($p . "	 [] Nomermmu Cok   " . $m . ": " . $k);
 
 $ua = array(
     "Host:xclite.netlify.app",
@@ -141,14 +141,14 @@ if (strpos($res, 'Saldo Tidak Bisa') !== false) {
 } elseif (strpos($res, 'SUCCESS') !== false) {
     echo $p . "
 ";
-    echo $p . "	 " . $h . "         Dor Success!" . $p . "
+    echo $p . "	 " . $h . "         Dor Success! chuaakksss" . $p . "
 ";
     echo $p . "
 ";
 } else {
     echo $p . "
 ";
-    echo $p . "	 " . $h . "          Dor Gagal!" . $p . "
+    echo $p . "	 " . $h . "          Dor Gagal! cuk" . $p . "
 ";
     echo $p . "
 ";
