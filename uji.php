@@ -20,7 +20,7 @@ echo $p . "
 
 
 sleep(1);
-$no = readline($p . "	 [] Nomermmu Cok   " . $m . ": " . $k);
+$no = readline($p . "	 [] Nomermu Cok   " . $m . ": " . $k);
 
 $ua = array(
     "Host:xclite.netlify.app",
