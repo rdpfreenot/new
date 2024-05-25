@@ -15,7 +15,7 @@ echo $p . "	      " . $p . "Author: " . $k . "Mr. Black Hat" . $p . "
 ";
 echo $p . "	   " . $p . "BLACK HAT" . $p . "
 ";
-echo $p . "	       " . $p . "Youtube: " . $k . "Who I Am" . $p . "
+echo $p . "	       " . $p . "ME: " . $k . "Bug Hunter" . $p . "
 ";
 echo $p . "
 ";
