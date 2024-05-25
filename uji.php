@@ -11,13 +11,13 @@ echo $p . "
 ";
 echo $p . "	          " . $h . "Bot Dor XL Lite 9K" . $p . "
 ";
-echo $p . "	      " . $p . "Author: Mr.Black  " . $p . "
+echo $p . "	      " . $p . "Author: Mr.Black Hat  " . $p . "
 ";
 echo $p . "	  " . $p . "MR. BLACK HAT" . $p . "
 ";
 echo $p . "	   " . $p . "BLACK HAT" . $p . "
 ";
-echo $p . "	       " . $p . "Youtube: " . $k . "NOTHING" . $p . "
+echo $p . "	       " . $p . "Youtube: " . $k . "Who I Am" . $p . "
 ";
 echo $p . "
 ";
