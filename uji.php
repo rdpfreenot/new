@@ -13,8 +13,6 @@ echo $p . "	          " . $h . "Bot Dor XL Lite 9K" . $p . "
 ";
 echo $p . "	      " . $p . "Author: " . $k . "Mr. Black Hat" . $p . "
 ";
-echo $p . "	   " . $p . "BLACK HAT" . $p . "
-";
 echo $p . "	       " . $p . "ME: " . $k . "Bug Hunter" . $p . "
 ";
 echo $p . "
