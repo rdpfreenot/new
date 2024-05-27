@@ -31,6 +31,7 @@ system("clear");$k = "[33;1m";$h = "[32;1m";$p = "[37;1m";$m = "[31;1m";$o = "[3
 ";echo $p."
 ";echo $h."".$quo."
 ";echo $p."
-
 ";
+    exit();
+}
 ?>
