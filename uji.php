@@ -23,14 +23,14 @@ sleep(1);
 $no = readline($p . "	 [] Nomermu Cok   " . $m . ": " . $k);
 
 $ua = array(
-    "Host:xclite.netlify.app",
+    "Host:my.kmsp-store.com",
     "user-agent:Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
     "content-type:application/json",
-    "origin:https://xclite.netlify.app",
+    "origin:https://my.kmsp-store.com/",
     "sec-fetch-site:same-origin",
     "sec-fetch-mode:cors",
     "sec-fetch-dest:empty",
-    "referer:https://xclite.netlify.app/"
+    "referer:https://my.kmsp-store.com/"
 );
 
 $ch = curl_init();
@@ -105,7 +105,7 @@ if (strpos($res, 'successUrl') !== false) {
 }
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "https://xclite.netlify.app/api/users/buy");
+curl_setopt($ch, CURLOPT_URL, "https://my.kmsp-store.com/panel/produk/tembak_xl_special/api/v1/package_details");
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
