@@ -34,7 +34,7 @@ $ua = array(
 );
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "https://xclite.netlify.app/api/users/otp");
+curl_setopt($ch, CURLOPT_URL, "https://my.kmsp-store.com/panel/produk/tembak_xl_special/api/v2/minta_otp");
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
