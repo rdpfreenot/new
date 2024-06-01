@@ -31,7 +31,7 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color('nevy', "$poin Poin\n\n");
     cek:
     echo @color('green', "Pilih Paket:\n");
-    echo @color('yellow', "1. SOSMED 20GB ==> Rp 20.000\n2. (NEW) 10GB 30 Hari ==> Rp 15000\n3. (NEW) 15GB 30 Hari ==> Rp 20000\n4. 25GB 25rb (Diskon) ==> Rp 25000\n5. 25GB 24 Jam 20 Hari ==> Rp 25000\n6. (NEW) 25GB 20 Hari ==> Rp 25000\n7. (NEW) 25GB 20 Hari ==> Rp 25000\n8. 25GB 24 Jam 30 Hari ==> Rp 29000\n9. (NEW) 25GB 30 Hari ==> Rp 29000\n10. (NEW) 55GB 30 Hari ==> Rp 50000\n11. (NEW) 65GB 30 Hari ==> Rp 60000\n12. (NEW) 75GB 30 Hari ==> Rp 75000\n13. (NEW) 90GB 30 Hari ==> Rp 90000\n14. (NEW) 100GB 30 Hari ==> Rp 90000\n");
+    echo @color('yellow', "1. SOSMED 20GB ==> Rp 20.000\n2. 60GB/2GB HARI 30 Hari ==> Rp 30.000\n3. (NEW) 15GB 30 Hari ==> Rp 20000\n4. 25GB 25rb (Diskon) ==> Rp 25000\n5. 25GB 24 Jam 20 Hari ==> Rp 25000\n6. (NEW) 25GB 20 Hari ==> Rp 25000\n7. (NEW) 25GB 20 Hari ==> Rp 25000\n8. 25GB 24 Jam 30 Hari ==> Rp 29000\n9. (NEW) 25GB 30 Hari ==> Rp 29000\n10. (NEW) 55GB 30 Hari ==> Rp 50000\n11. (NEW) 65GB 30 Hari ==> Rp 60000\n12. (NEW) 75GB 30 Hari ==> Rp 75000\n13. (NEW) 90GB 30 Hari ==> Rp 90000\n14. (NEW) 100GB 30 Hari ==> Rp 90000\n");
     echo @color('green', "\nMasukkan Pilihan (Sesuai Angka) : ");
     $pilih = trim(fgets(STDIN));
     switch ($pilih) {
@@ -39,7 +39,7 @@ if (strpos(json_encode($login), '"status":true')) {
             $prodid = '29181';
             break;
             case '2':
-            $prodid = '25245';
+            $prodid = '28039';
             break;
             case '3':
             $prodid = '25459';
